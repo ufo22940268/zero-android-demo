@@ -10,7 +10,7 @@ APP_NAME	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    privat
 AUTHENTICATOR	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^    private static BootstrapAccountAuthenticator AUTHENTICATOR = null;$/;"	f	class:AccountAuthenticatorService	file:
 AUTHTOKEN_TYPE	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String AUTHTOKEN_TYPE = BOOTSTRAP_ACCOUNT_TYPE;$/;"	f	class:Constants.Auth
 AccountAuthenticatorService	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^public class AccountAuthenticatorService extends Service {$/;"	c
-AddActivity	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^public class AddActivity extends BootstrapFragmentActivity implements View.OnClickListener {$/;"	c
+AddActivity	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^public class AddActivity extends SherlockFragmentActivity implements View.OnClickListener {$/;"	c
 AlternatingColorListAdapter	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^    public AlternatingColorListAdapter(final int layoutId,$/;"	m	class:AlternatingColorListAdapter
 AlternatingColorListAdapter	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^public abstract class AlternatingColorListAdapter<V> extends$/;"	c
 AndroidModule	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^public class AndroidModule {$/;"	c
@@ -23,7 +23,6 @@ BOOTSTRAP_ACCOUNT_NAME	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^    
 BOOTSTRAP_ACCOUNT_TYPE	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String BOOTSTRAP_ACCOUNT_TYPE = "me.biubiubiu.cgb";$/;"	f	class:Constants.Auth
 BOOTSTRAP_PROVIDER_AUTHORITY	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String BOOTSTRAP_PROVIDER_AUTHORITY = "me.biubiubiu.cgb.sync";$/;"	f	class:Constants.Auth
 BUS	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    @Inject protected Bus BUS;$/;"	f	class:TimerService
-BUS	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @Inject Bus BUS;$/;"	f	class:AddActivity
 BUS	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @Inject Bus BUS;$/;"	f	class:BootstrapTimerActivity
 BarGraphDrawable	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    public BarGraphDrawable(final long[][] data, final int[][] colors) {$/;"	m	class:BarGraphDrawable
 BarGraphDrawable	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^public class BarGraphDrawable extends PaintDrawable {$/;"	c
@@ -189,7 +188,6 @@ call	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        public Voi
 cancel	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public boolean cancel( boolean mayInterruptIfRunning ) {$/;"	m	class:SafeAsyncTask
 capitalize	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String capitalize( String s ) {$/;"	m	class:Strings
 checkAuth	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private void checkAuth() {$/;"	m	class:CarouselActivity	file:
-chronometer	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.chronometer) protected TextView chronometer;$/;"	f	class:AddActivity
 chronometer	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.chronometer) protected TextView chronometer;$/;"	f	class:BootstrapTimerActivity
 chunk	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String[] chunk( String str, int chunkSize ) {$/;"	m	class:Strings
 classLoader	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    @Inject protected ClassLoader classLoader;$/;"	f	class:UserAgentProvider
@@ -258,7 +256,6 @@ finishLogin	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorA
 firstName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String firstName;$/;"	f	class:User
 footers	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    private final ArrayList<FixedViewInfo> footers;$/;"	f	class:HeaderFooterListAdapter	file:
 forceRefresh	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void forceRefresh() {$/;"	m	class:ItemListFragment
-formatTime	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public static String formatTime(long millis) {$/;"	m	class:AddActivity
 formatTime	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public static String formatTime(long millis) {$/;"	m	class:BootstrapTimerActivity
 fromJson	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private <V> V fromJson(HttpRequest request, Class<V> target) throws IOException {$/;"	m	class:BootstrapService	file:
 future	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected FutureTask<Void> future;$/;"	f	class:SafeAsyncTask
@@ -333,6 +330,7 @@ getViews	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    public long 
 getWrappedAdapter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public E getWrappedAdapter() {$/;"	m	class:HeaderFooterListAdapter
 gravatarId	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String gravatarId;$/;"	f	class:User
 handleLogin	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public void handleLogin(View view) {$/;"	m	class:BootstrapAuthenticatorActivity
+handleSubmit	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void handleSubmit(View view) {$/;"	m	class:AddActivity
 handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected Handler handler;$/;"	f	class:SafeAsyncTask.Task
 handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected Handler handler;$/;"	f	class:SafeAsyncTask
 handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public Handler handler() {$/;"	m	class:SafeAsyncTask
@@ -358,7 +356,6 @@ isForceRefresh	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    pro
 isPaused	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private boolean isPaused;$/;"	f	class:TimerService	file:
 isPostOrPut	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private boolean isPostOrPut(HttpRequest request) {$/;"	m	class:BootstrapService	file:
 isTimerIsPaused	src/main/java/me/biubiubiu/cgb/core/TimerPausedEvent.java	/^    public boolean isTimerIsPaused() {$/;"	m	class:TimerPausedEvent
-isTimerServiceRunning	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private boolean isTimerServiceRunning() {$/;"	m	class:AddActivity	file:
 isTimerServiceRunning	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private boolean isTimerServiceRunning() {$/;"	m	class:BootstrapTimerActivity	file:
 isUsable	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected boolean isUsable() {$/;"	m	class:ItemListFragment
 isVerboseEnabled	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static boolean isVerboseEnabled() {$/;"	m	class:Ln
@@ -470,7 +467,7 @@ onActivityCreated	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    
 onAuthenticationResult	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public void onAuthenticationResult(boolean result) {$/;"	m	class:BootstrapAuthenticatorActivity
 onBind	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:AccountAuthenticatorService
 onBind	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:TimerService
-onClick	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onClick(View v) {$/;"	m	class:AddActivity
+onClick	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onClick(View view) {$/;"	m	class:AddActivity
 onClick	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onClick(View v) {$/;"	m	class:BootstrapTimerActivity
 onCreate	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    public void onCreate() {$/;"	m	class:BootstrapApplication
 onCreate	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public void onCreate(Bundle bundle) {$/;"	m	class:BootstrapAuthenticatorActivity
@@ -491,6 +488,7 @@ onCreateDialog	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticat
 onCreateLoader	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    public Loader<List<CheckIn>> onCreateLoader(int id, Bundle args) {$/;"	m	class:CheckInsListFragment
 onCreateLoader	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    public Loader<List<News>> onCreateLoader(int id, Bundle args) {$/;"	m	class:NewsListFragment
 onCreateLoader	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public Loader<List<User>> onCreateLoader(int id, Bundle args) {$/;"	m	class:UserListFragment
+onCreateOptionsMenu	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public boolean onCreateOptionsMenu(Menu optionsMenu) {$/;"	m	class:AddActivity
 onCreateOptionsMenu	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onCreateOptionsMenu(Menu optionsMenu, MenuInflater inflater) {$/;"	m	class:ItemListFragment
 onCreateView	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public View onCreateView(LayoutInflater inflater, ViewGroup container,$/;"	m	class:ItemListFragment
 onDestroy	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onDestroy() {$/;"	m	class:TimerService
@@ -508,26 +506,23 @@ onListItemClick	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    pu
 onLoadFinished	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onLoadFinished(Loader<List<E>> loader, List<E> items) {$/;"	m	class:ItemListFragment
 onLoadFinished	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public void onLoadFinished(Loader<List<User>> loader, List<User> items) {$/;"	m	class:UserListFragment
 onLoaderReset	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onLoaderReset(Loader<List<E>> loader) {$/;"	m	class:ItemListFragment
+onMenuItemSelected	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public boolean onMenuItemSelected(int featureId, MenuItem item) {$/;"	m	class:AddActivity
+onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:AddActivity
 onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/BootstrapActivity.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:BootstrapActivity
 onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:CarouselActivity
 onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:ItemListFragment
-onPause	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    protected void onPause() {$/;"	m	class:AddActivity
 onPause	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    protected void onPause() {$/;"	m	class:BootstrapTimerActivity
 onPauseEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onPauseEvent(PauseTimerEvent pauseEvent) {$/;"	m	class:TimerService
-onPauseEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onPauseEvent(PauseTimerEvent event) {$/;"	m	class:AddActivity
 onPauseEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onPauseEvent(PauseTimerEvent event) {$/;"	m	class:BootstrapTimerActivity
 onPreExecute	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onPreExecute() throws Exception {}$/;"	m	class:SafeAsyncTask
 onReset	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    protected void onReset() {$/;"	m	class:AsyncLoader
 onResume	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void onResume() {$/;"	m	class:BootstrapAuthenticatorActivity
-onResume	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    protected void onResume() {$/;"	m	class:AddActivity
 onResume	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    protected void onResume() {$/;"	m	class:BootstrapTimerActivity
-onResumeEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onResumeEvent(ResumeTimerEvent event) {$/;"	m	class:AddActivity
 onResumeEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onResumeEvent(ResumeTimerEvent event) {$/;"	m	class:BootstrapTimerActivity
 onResumeTimerEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onResumeTimerEvent(ResumeTimerEvent resumeTimerEvent) {$/;"	m	class:TimerService
 onStartCommand	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:TimerService
 onStartLoading	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    protected void onStartLoading() {$/;"	m	class:AsyncLoader
 onStopEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onStopEvent(StopTimerEvent stopEvent) {$/;"	m	class:TimerService
-onStopEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onStopEvent(StopTimerEvent event) {$/;"	m	class:AddActivity
 onStopEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onStopEvent(StopTimerEvent event) {$/;"	m	class:BootstrapTimerActivity
 onStopLoading	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    protected void onStopLoading() {$/;"	m	class:AsyncLoader
 onSuccess	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        private Runnable onSuccess;$/;"	f	class:LogoutService.LogoutTask	file:
@@ -535,9 +530,7 @@ onSuccess	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^    
 onSuccess	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onSuccess( ResultT t ) throws Exception {}$/;"	m	class:SafeAsyncTask
 onTextChanged	src/main/java/me/biubiubiu/cgb/ui/TextWatcherAdapter.java	/^    public void onTextChanged(CharSequence s, int start, int before, int count) {$/;"	m	class:TextWatcherAdapter
 onThrowable	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onThrowable( Throwable t ) throws RuntimeException {$/;"	m	class:SafeAsyncTask
-onTickEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onTickEvent(TimerTickEvent event) {$/;"	m	class:AddActivity
 onTickEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onTickEvent(TimerTickEvent event) {$/;"	m	class:BootstrapTimerActivity
-onTimerPausedEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onTimerPausedEvent(TimerPausedEvent event) {$/;"	m	class:AddActivity
 onTimerPausedEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onTimerPausedEvent(TimerPausedEvent event) {$/;"	m	class:BootstrapTimerActivity
 onViewCreated	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onViewCreated(View view, Bundle savedInstanceState) {$/;"	m	class:ItemListFragment
 packageName	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected String packageName = "";$/;"	f	class:Ln.BaseConfig
@@ -546,7 +539,6 @@ parent	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protecte
 password	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private String password;$/;"	f	class:BootstrapAuthenticatorActivity	file:
 password	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private final String password;$/;"	f	class:BootstrapService	file:
 passwordText	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    @InjectView(id.et_password) EditText passwordText;$/;"	f	class:BootstrapAuthenticatorActivity
-pause	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.pause) protected Button pause;$/;"	f	class:AddActivity
 pause	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.pause) protected Button pause;$/;"	f	class:BootstrapTimerActivity
 pauseTimer	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void pauseTimer() {$/;"	m	class:TimerService	file:
 pausedBaseTime	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private long pausedBaseTime;$/;"	f	class:TimerService	file:
@@ -558,11 +550,8 @@ primaryResource	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.ja
 print	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    @Inject protected static Print print = new Print();$/;"	f	class:Ln
 println	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public int println(int priority, String msg ) {$/;"	m	class:Ln.Print
 processMessage	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected String processMessage(String msg) {$/;"	m	class:Ln.Print
-producePauseEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void producePauseEvent() {$/;"	m	class:AddActivity	file:
 producePauseEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void producePauseEvent() {$/;"	m	class:BootstrapTimerActivity	file:
-produceResumeEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void produceResumeEvent() {$/;"	m	class:AddActivity	file:
 produceResumeEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void produceResumeEvent() {$/;"	m	class:BootstrapTimerActivity	file:
-produceStopEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void produceStopEvent() {$/;"	m	class:AddActivity	file:
 produceStopEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void produceStopEvent() {$/;"	m	class:BootstrapTimerActivity	file:
 produceTickEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public TimerTickEvent produceTickEvent() {$/;"	m	class:TimerService
 produceTimerIsPausedEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public TimerPausedEvent produceTimerIsPausedEvent() {$/;"	m	class:TimerService
@@ -590,7 +579,6 @@ resources	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^    pri
 results	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private List<CheckIn> results;$/;"	f	class:BootstrapService.CheckInWrapper	file:
 results	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private List<News> results;$/;"	f	class:BootstrapService.NewsWrapper	file:
 results	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private List<User> results;$/;"	f	class:BootstrapService.UsersWrapper	file:
-resume	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.resume) protected Button resume;$/;"	f	class:AddActivity
 resume	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.resume) protected Button resume;$/;"	f	class:BootstrapTimerActivity
 roundCorners	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap roundCorners(final Bitmap source, final float radius) {$/;"	m	class:ImageUtils
 scope	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected String scope = "";$/;"	f	class:Ln.BaseConfig
@@ -612,7 +600,6 @@ setContentView	src/main/java/me/biubiubiu/cgb/ui/BootstrapFragmentActivity.java	
 setEmptyText	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ItemListFragment<E> setEmptyText(final String message) {$/;"	m	class:ItemListFragment
 setEmptyText	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ItemListFragment<E> setEmptyText(final int resId) {$/;"	m	class:ItemListFragment
 setFirstName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setFirstName(String firstName) {$/;"	m	class:User
-setFormattedTime	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void setFormattedTime(long millis) {$/;"	m	class:AddActivity	file:
 setFormattedTime	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void setFormattedTime(long millis) {$/;"	m	class:BootstrapTimerActivity	file:
 setImage	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static void setImage(final File image, final ImageView view) {$/;"	m	class:ImageUtils
 setImage	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static void setImage(final String imagePath, final ImageView view) {$/;"	m	class:ImageUtils
@@ -644,13 +631,10 @@ showError	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protecte
 showList	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void showList() {$/;"	m	class:ItemListFragment
 showProgress	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void showProgress() {$/;"	m	class:BootstrapAuthenticatorActivity
 signinButton	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    @InjectView(id.b_signin) Button signinButton;$/;"	f	class:BootstrapAuthenticatorActivity
-start	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.start) protected Button start;$/;"	f	class:AddActivity
 start	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.start) protected Button start;$/;"	f	class:BootstrapTimerActivity
 startChronoTimer	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void startChronoTimer() {$/;"	m	class:TimerService	file:
 startTimer	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void startTimer() {$/;"	m	class:TimerService	file:
-startTimer	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void startTimer() {$/;"	m	class:AddActivity	file:
 startTimer	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void startTimer() {$/;"	m	class:BootstrapTimerActivity	file:
-stop	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.stop) protected Button stop;$/;"	f	class:AddActivity
 stop	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.stop) protected Button stop;$/;"	f	class:BootstrapTimerActivity
 telephonyManager	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    @Inject protected TelephonyManager telephonyManager;$/;"	f	class:UserAgentProvider
 timerHandler	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private Handler timerHandler = new Handler() {$/;"	f	class:TimerService	file:

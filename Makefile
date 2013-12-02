@@ -7,6 +7,9 @@ notify:
 	#echo 'message:compile finish' | zenity --notification --listen
 	zenity --notification --window-icon=/home/garlic/Pictures/finish.jpg --text "compile finished" &> /dev/null &
 
+deploy:
+	scp target/me-biubiubiu-cgb-1.0.apk root@192.241.196.189:/usr/share/nginx/html/cgb.apk
+
 
 all: main notify
 	echo "finish"
@@ -24,9 +27,9 @@ kill:
 launchmain:
 	adb shell "am start -n com.meishixing.crazysight/.MainActivity"
 
-.PHONY : deploy
-deploy:
-	mvn android:redeploy
+#.PHONY : deploy
+#deploy:
+	#mvn android:redeploy
 
 vim:
 	echo "1" 1&>2

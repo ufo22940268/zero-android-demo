@@ -133,7 +133,7 @@ public class CarouselActivity extends BootstrapFragmentActivity {
     }
 
     private void navigateToTimer() {
-        final Intent i = new Intent(this, BootstrapTimerActivity.class);
+        final Intent i = new Intent(this, AddActivity.class);
         startActivity(i);
     }
 }

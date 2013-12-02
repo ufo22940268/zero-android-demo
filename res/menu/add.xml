@@ -10,12 +10,12 @@
         android:title="拍照" >
     </item>
 
-    <item
-        android:id="@+id/location"
-        android:icon="@drawable/ic_action_location_found"
-        android:showAsAction="always"
-        android:title="定位" >
-    </item>
+    <!--<item-->
+        <!--android:id="@+id/location"-->
+        <!--android:icon="@drawable/ic_action_location_found"-->
+        <!--android:showAsAction="always"-->
+        <!--android:title="定位" >-->
+    <!--</item>-->
 
 
 </menu>

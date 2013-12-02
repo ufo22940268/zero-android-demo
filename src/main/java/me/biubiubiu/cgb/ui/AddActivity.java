@@ -27,7 +27,7 @@ import butterknife.Views;
 import com.actionbarsherlock.app.*;
 import com.actionbarsherlock.view.*;
 
-public class AddActivity extends SherlockFragmentActivity implements View.OnClickListener {
+public class AddActivity extends SherlockActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
