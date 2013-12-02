@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.*;
+import android.provider.*;
 
 import me.biubiubiu.cgb.BootstrapApplication;
 import me.biubiubiu.cgb.R;
@@ -41,14 +42,25 @@ public class AddActivity extends SherlockFragmentActivity implements View.OnClic
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s1.setAdapter(adapter);
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        System.out.println("++++++++++++++++++++" + "onOptionsItemSelected" + "++++++++++++++++++++");
         switch (item.getItemId()) {
             case android.R.id.home:
                 finish();
+                return true;
+            case R.id.camera:
+                // create Intent to take a picture and return control to the calling application
+                System.out.println("++++++++++++++++++++" + "camera" + "++++++++++++++++++++");
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
+                //fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE); // create a file to save the image
+                //intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri); // set the image file name
+                // start the image capture Intent
+                startActivityForResult(intent, 2); 
                 return true;
         }
 
@@ -62,4 +74,12 @@ public class AddActivity extends SherlockFragmentActivity implements View.OnClic
     public void handleSubmit(View view) {
         finish();
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu optionsMenu) {
+        MenuInflater inflater = getSupportMenuInflater();
+        inflater.inflate(R.menu.add, optionsMenu);
+        return true;
+    }
+
 }
