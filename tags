@@ -1,0 +1,693 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-window-icon	Makefile	/^	zenity --notification --window-icon=\/home\/garlic\/Pictures\/finish.jpg --text "compile finished" &> \/dev\/null &$/;"	m
+.DEFAULT_GOAL	Makefile	/^.DEFAULT_GOAL := main$/;"	m
+APP_NAME	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    private static final String APP_NAME = "CgbSms";$/;"	f	class:UserAgentProvider	file:
+AUTHENTICATOR	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^    private static BootstrapAccountAuthenticator AUTHENTICATOR = null;$/;"	f	class:AccountAuthenticatorService	file:
+AUTHTOKEN_TYPE	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String AUTHTOKEN_TYPE = BOOTSTRAP_ACCOUNT_TYPE;$/;"	f	class:Constants.Auth
+AccountAuthenticatorService	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^public class AccountAuthenticatorService extends Service {$/;"	c
+AddActivity	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^public class AddActivity extends BootstrapFragmentActivity implements View.OnClickListener {$/;"	c
+AlternatingColorListAdapter	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^    public AlternatingColorListAdapter(final int layoutId,$/;"	m	class:AlternatingColorListAdapter
+AlternatingColorListAdapter	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^public abstract class AlternatingColorListAdapter<V> extends$/;"	c
+AndroidModule	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^public class AndroidModule {$/;"	c
+ApiKeyProvider	src/main/java/me/biubiubiu/cgb/authenticator/ApiKeyProvider.java	/^public class ApiKeyProvider {$/;"	c
+AsyncLoader	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    public AsyncLoader(Context context) {$/;"	m	class:AsyncLoader
+AsyncLoader	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^public abstract class AsyncLoader<D> extends AsyncTaskLoader<D> {$/;"	c
+Auth	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        private Auth() {}$/;"	m	class:Constants.Auth	file:
+Auth	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^    public static class Auth {$/;"	c	class:Constants
+BOOTSTRAP_ACCOUNT_NAME	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String BOOTSTRAP_ACCOUNT_NAME = "CgbSms";$/;"	f	class:Constants.Auth
+BOOTSTRAP_ACCOUNT_TYPE	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String BOOTSTRAP_ACCOUNT_TYPE = "me.biubiubiu.cgb";$/;"	f	class:Constants.Auth
+BOOTSTRAP_PROVIDER_AUTHORITY	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String BOOTSTRAP_PROVIDER_AUTHORITY = "me.biubiubiu.cgb.sync";$/;"	f	class:Constants.Auth
+BUS	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    @Inject protected Bus BUS;$/;"	f	class:TimerService
+BUS	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @Inject Bus BUS;$/;"	f	class:AddActivity
+BUS	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @Inject Bus BUS;$/;"	f	class:BootstrapTimerActivity
+BarGraphDrawable	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    public BarGraphDrawable(final long[][] data, final int[][] colors) {$/;"	m	class:BarGraphDrawable
+BarGraphDrawable	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^public class BarGraphDrawable extends PaintDrawable {$/;"	c
+BaseConfig	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected BaseConfig() {$/;"	m	class:Ln.BaseConfig
+BaseConfig	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public BaseConfig(Application context) {$/;"	m	class:Ln.BaseConfig
+BaseConfig	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static class BaseConfig implements Config {$/;"	c	class:Ln
+BootstrapAccountAuthenticator	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public BootstrapAccountAuthenticator(Context context) {$/;"	m	class:BootstrapAccountAuthenticator
+BootstrapAccountAuthenticator	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^class BootstrapAccountAuthenticator extends AbstractAccountAuthenticator {$/;"	c
+BootstrapActivity	src/main/java/me/biubiubiu/cgb/ui/BootstrapActivity.java	/^public abstract class BootstrapActivity extends SherlockActivity {$/;"	c
+BootstrapApiClientUtilTest	src/test/java/me/biubiubiu/cgb/core/core/BootstrapApiClientUtilTest.java	/^public class BootstrapApiClientUtilTest {$/;"	c
+BootstrapApplication	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    public BootstrapApplication() {$/;"	m	class:BootstrapApplication
+BootstrapApplication	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    public BootstrapApplication(final Context context) {$/;"	m	class:BootstrapApplication
+BootstrapApplication	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    public BootstrapApplication(final Instrumentation instrumentation) {$/;"	m	class:BootstrapApplication
+BootstrapApplication	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^public class BootstrapApplication extends Application {$/;"	c
+BootstrapAuthenticatorActivity	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^public class BootstrapAuthenticatorActivity extends SherlockAccountAuthenticatorActivity {$/;"	c
+BootstrapFragmentActivity	src/main/java/me/biubiubiu/cgb/ui/BootstrapFragmentActivity.java	/^public class BootstrapFragmentActivity extends SherlockFragmentActivity {$/;"	c
+BootstrapModule	src/main/java/me/biubiubiu/cgb/BootstrapModule.java	/^public class BootstrapModule  {$/;"	c
+BootstrapPagerAdapter	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^    public BootstrapPagerAdapter(Resources resources, FragmentManager fragmentManager) {$/;"	m	class:BootstrapPagerAdapter
+BootstrapPagerAdapter	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^public class BootstrapPagerAdapter extends FragmentPagerAdapter {$/;"	c
+BootstrapService	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    public BootstrapService(final String apiKey, final UserAgentProvider userAgentProvider) {$/;"	m	class:BootstrapService
+BootstrapService	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    public BootstrapService(final String username, final String password) {$/;"	m	class:BootstrapService
+BootstrapService	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^public class BootstrapService {$/;"	c
+BootstrapServiceProvider	src/main/java/me/biubiubiu/cgb/BootstrapServiceProvider.java	/^public class BootstrapServiceProvider {$/;"	c
+BootstrapServiceTest	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^public class BootstrapServiceTest {$/;"	c
+BootstrapTimerActivity	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^public class BootstrapTimerActivity extends BootstrapFragmentActivity implements View.OnClickListener {$/;"	c
+CHARSET	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^    public static final String CHARSET = "CP1252"; \/\/$NON-NLS-1\$$/;"	f	class:GravatarUtils
+CONTENT_TYPE_JSON	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String CONTENT_TYPE_JSON = "application\/json";$/;"	f	class:Constants.Http
+CapitalizedTextView	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^    public CapitalizedTextView(Context context) {$/;"	m	class:CapitalizedTextView
+CapitalizedTextView	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^    public CapitalizedTextView(Context context, AttributeSet attrs) {$/;"	m	class:CapitalizedTextView
+CapitalizedTextView	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^    public CapitalizedTextView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:CapitalizedTextView
+CapitalizedTextView	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^public class CapitalizedTextView extends Button {$/;"	c
+CarouselActivity	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^public class CarouselActivity extends BootstrapFragmentActivity {$/;"	c
+CheckIn	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^public class CheckIn {$/;"	c
+CheckInWrapper	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private static class CheckInWrapper {$/;"	c	class:BootstrapService
+CheckInsListAdapter	src/main/java/me/biubiubiu/cgb/ui/CheckInsListAdapter.java	/^    public CheckInsListAdapter(LayoutInflater inflater, List<CheckIn> items) {$/;"	m	class:CheckInsListAdapter
+CheckInsListAdapter	src/main/java/me/biubiubiu/cgb/ui/CheckInsListAdapter.java	/^    public CheckInsListAdapter(LayoutInflater inflater, List<CheckIn> items,$/;"	m	class:CheckInsListAdapter
+CheckInsListAdapter	src/main/java/me/biubiubiu/cgb/ui/CheckInsListAdapter.java	/^public class CheckInsListAdapter extends AlternatingColorListAdapter<CheckIn> {$/;"	c
+CheckInsListFragment	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^public class CheckInsListFragment extends ItemListFragment<CheckIn> {$/;"	c
+Config	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static interface Config {$/;"	i	class:Ln
+Constants	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^public class Constants {$/;"	c
+DATE_FORMAT	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MMMM dd");$/;"	f	class:UserListAdapter	file:
+DEFAULT_BUFFER_SIZE	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    private static final int DEFAULT_BUFFER_SIZE = 1024 * 4;$/;"	f	class:Strings	file:
+DEFAULT_EXECUTOR	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected static final Executor DEFAULT_EXECUTOR = Executors.newFixedThreadPool(DEFAULT_POOL_SIZE);$/;"	f	class:SafeAsyncTask
+DEFAULT_POOL_SIZE	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public static final int DEFAULT_POOL_SIZE = 25;$/;"	f	class:SafeAsyncTask
+DESCRIPTION_CLIENT	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    private static final String DESCRIPTION_CLIENT = "Bootstrap for Android";$/;"	f	class:BootstrapAccountAuthenticator	file:
+Extra	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        private Extra() {}$/;"	m	class:Constants.Extra	file:
+Extra	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^    public static class Extra {$/;"	c	class:Constants
+FORCE_REFRESH	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    private static final String FORCE_REFRESH = "forceRefresh";$/;"	f	class:ItemListFragment	file:
+GSON	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    public static final Gson GSON = new GsonBuilder().setDateFormat("yyyy-MM-dd").create();$/;"	f	class:BootstrapService
+GravatarUtils	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^public class GravatarUtils {$/;"	c
+HASH_ALGORITHM	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^    public static final String HASH_ALGORITHM = "MD5"; \/\/$NON-NLS-1\$$/;"	f	class:GravatarUtils
+HASH_LENGTH	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^    public static final int HASH_LENGTH = 32;$/;"	f	class:GravatarUtils
+HEADER_PARSE_APP_ID	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String HEADER_PARSE_APP_ID = "X-Parse-Application-Id";$/;"	f	class:Constants.Http
+HEADER_PARSE_REST_API_KEY	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String HEADER_PARSE_REST_API_KEY = "X-Parse-REST-API-Key";$/;"	f	class:Constants.Http
+HeaderFooterListAdapter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    private HeaderFooterListAdapter(ArrayList<FixedViewInfo> headerViewInfos,$/;"	m	class:HeaderFooterListAdapter	file:
+HeaderFooterListAdapter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public HeaderFooterListAdapter(ListView view, E adapter) {$/;"	m	class:HeaderFooterListAdapter
+HeaderFooterListAdapter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^public class HeaderFooterListAdapter<E extends BaseAdapter> extends$/;"	c
+Http	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        private Http() {}$/;"	m	class:Constants.Http	file:
+Http	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^    public static class Http {$/;"	c	class:Constants
+INTENT_PREFIX	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String INTENT_PREFIX = "me.biubiubiu.cgb.";$/;"	f	class:Constants.Intent
+ImageUtils	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^public class ImageUtils {$/;"	c
+Injector	src/main/java/me/biubiubiu/cgb/Injector.java	/^public final class Injector$/;"	c
+Intent	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        private Intent() {}$/;"	m	class:Constants.Intent	file:
+Intent	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^    public static class Intent {$/;"	c	class:Constants
+IntentFactory	src/main/java/me/biubiubiu/cgb/core/IntentFactory.java	/^public class IntentFactory {$/;"	c
+ItemListFragment	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^public abstract class ItemListFragment<E> extends SherlockFragment$/;"	c
+JsonException	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        public JsonException(JsonParseException cause) {$/;"	m	class:BootstrapService.JsonException
+JsonException	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private static class JsonException extends IOException {$/;"	c	class:BootstrapService
+Ln	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    private Ln() {}$/;"	m	class:Ln	file:
+Ln	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^public class Ln  {$/;"	c
+Location	src/main/java/me/biubiubiu/cgb/core/Location.java	/^public class Location {$/;"	c
+LogoutService	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^    public LogoutService(Context context, AccountManager accountManager) {$/;"	m	class:LogoutService
+LogoutService	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^public class LogoutService {$/;"	c
+LogoutTask	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        protected LogoutTask(Context context, Runnable onSuccess) {$/;"	m	class:LogoutService.LogoutTask
+LogoutTask	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^    private static class LogoutTask extends SafeAsyncTask<Boolean> {$/;"	c	class:LogoutService
+MIN_HEIGHT	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    private static final int MIN_HEIGHT = 4;$/;"	f	class:BarGraphDrawable	file:
+NEWS_ITEM	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String NEWS_ITEM = "news_item";$/;"	f	class:Constants.Extra
+News	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public News() {$/;"	m	class:News
+News	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public News(String title, String content, String objectId) {$/;"	m	class:News
+News	src/main/java/me/biubiubiu/cgb/core/News.java	/^public class News implements Serializable {$/;"	c
+NewsActivity	src/main/java/me/biubiubiu/cgb/ui/NewsActivity.java	/^public class NewsActivity extends BootstrapActivity {$/;"	c
+NewsListAdapter	src/main/java/me/biubiubiu/cgb/ui/NewsListAdapter.java	/^    public NewsListAdapter(LayoutInflater inflater, List<News> items) {$/;"	m	class:NewsListAdapter
+NewsListAdapter	src/main/java/me/biubiubiu/cgb/ui/NewsListAdapter.java	/^    public NewsListAdapter(LayoutInflater inflater, List<News> items,$/;"	m	class:NewsListAdapter
+NewsListAdapter	src/main/java/me/biubiubiu/cgb/ui/NewsListAdapter.java	/^public class NewsListAdapter extends AlternatingColorListAdapter<News> {$/;"	c
+NewsListFragment	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^public class NewsListFragment extends ItemListFragment<News> {$/;"	c
+NewsWrapper	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private static class NewsWrapper {$/;"	c	class:BootstrapService
+Notification	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        private Notification() {}$/;"	m	class:Constants.Notification	file:
+Notification	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^    public static class Notification{$/;"	c	class:Constants
+PARAM_AUTHTOKEN_TYPE	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public static final String PARAM_AUTHTOKEN_TYPE = "authtokenType";$/;"	f	class:BootstrapAuthenticatorActivity
+PARAM_CONFIRMCREDENTIALS	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public static final String PARAM_CONFIRMCREDENTIALS = "confirmCredentials";$/;"	f	class:BootstrapAuthenticatorActivity
+PARAM_PASSWORD	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public static final String PARAM_PASSWORD = "password";$/;"	f	class:BootstrapAuthenticatorActivity
+PARAM_USERNAME	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public static final String PARAM_USERNAME = "username";$/;"	f	class:BootstrapAuthenticatorActivity
+PARSE_APP_ID	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String PARSE_APP_ID = "zHb2bVia6kgilYRWWdmTiEJooYA17NnkBSUVsr4H";$/;"	f	class:Constants.Http
+PARSE_REST_API_KEY	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String PARSE_REST_API_KEY = "N2kCY1T3t3Jfhf9zpJ5MCURn3b25UpACILhnf5u9";$/;"	f	class:Constants.Http
+PASSWORD	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String PASSWORD = "password";$/;"	f	class:Constants.Http
+PauseTimerEvent	src/main/java/me/biubiubiu/cgb/core/PauseTimerEvent.java	/^public class PauseTimerEvent {$/;"	c
+Print	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static class Print {$/;"	c	class:Ln
+ResumeTimerEvent	src/main/java/me/biubiubiu/cgb/core/ResumeTimerEvent.java	/^public class ResumeTimerEvent {$/;"	c
+RootModule	src/main/java/me/biubiubiu/cgb/RootModule.java	/^public class RootModule {$/;"	c
+SANS_ICE_CREAM	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^    private static final boolean SANS_ICE_CREAM = Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH;$/;"	f	class:CapitalizedTextView	file:
+SESSION_TOKEN	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String SESSION_TOKEN = "sessionToken";$/;"	f	class:Constants.Http
+SPACING_X	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    private static final int SPACING_X = 1;$/;"	f	class:BarGraphDrawable	file:
+SafeAsyncTask	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public SafeAsyncTask( Executor executor ) {$/;"	m	class:SafeAsyncTask
+SafeAsyncTask	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public SafeAsyncTask( Handler handler ) {$/;"	m	class:SafeAsyncTask
+SafeAsyncTask	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public SafeAsyncTask( Handler handler, Executor executor ) {$/;"	m	class:SafeAsyncTask
+SafeAsyncTask	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public SafeAsyncTask() {$/;"	m	class:SafeAsyncTask
+SafeAsyncTask	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^public abstract class SafeAsyncTask<ResultT> implements Callable<ResultT> {$/;"	c
+SherlockAccountAuthenticatorActivity	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^public class SherlockAccountAuthenticatorActivity extends SherlockActivity {$/;"	c
+StopTimerEvent	src/main/java/me/biubiubiu/cgb/core/StopTimerEvent.java	/^public class StopTimerEvent {$/;"	c
+Strings	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^public class Strings {$/;"	c
+TICK_WHAT	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public static final int TICK_WHAT = 2;$/;"	f	class:TimerService
+TIMEOUT	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private static final int TIMEOUT = 30 * 1000;$/;"	f	class:BootstrapService	file:
+TIMER_NOTIFICATION_ID	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final int TIMER_NOTIFICATION_ID = 1000; \/\/ Why 1000? Why not? :)$/;"	f	class:Constants.Notification
+Task	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        public Task(SafeAsyncTask<ResultT> parent) {$/;"	m	class:SafeAsyncTask.Task
+Task	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public static class Task<ResultT> implements Callable<Void> {$/;"	c	class:SafeAsyncTask
+TextWatcherAdapter	src/main/java/me/biubiubiu/cgb/ui/TextWatcherAdapter.java	/^public class TextWatcherAdapter implements TextWatcher {$/;"	c
+ThrowableLoader	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    public ThrowableLoader(Context context, D data) {$/;"	m	class:ThrowableLoader
+ThrowableLoader	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^public abstract class ThrowableLoader<D> extends AsyncLoader<D> {$/;"	c
+TimerPausedEvent	src/main/java/me/biubiubiu/cgb/core/TimerPausedEvent.java	/^    public TimerPausedEvent(boolean timerIsPaused) {$/;"	m	class:TimerPausedEvent
+TimerPausedEvent	src/main/java/me/biubiubiu/cgb/core/TimerPausedEvent.java	/^public class TimerPausedEvent {$/;"	c
+TimerService	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^public class TimerService extends Service {$/;"	c
+TimerTickEvent	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^    public TimerTickEvent(long millis) {$/;"	m	class:TimerTickEvent
+TimerTickEvent	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^public class TimerTickEvent {$/;"	c
+URL_AUTH	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String URL_AUTH = URL_BASE + "\/1\/login";$/;"	f	class:Constants.Http
+URL_BASE	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String URL_BASE = "https:\/\/api.parse.com";$/;"	f	class:Constants.Http
+URL_CHECKINS	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String URL_CHECKINS = URL_BASE + "\/1\/classes\/Locations";$/;"	f	class:Constants.Http
+URL_NEWS	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String URL_NEWS = URL_BASE + "\/1\/classes\/News";$/;"	f	class:Constants.Http
+URL_USERS	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String URL_USERS = URL_BASE + "\/1\/users";$/;"	f	class:Constants.Http
+USER	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String USER = "user";$/;"	f	class:Constants.Extra
+USERNAME	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^        public static final String USERNAME = "username";$/;"	f	class:Constants.Http
+User	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public User(String username, String avatarUrl) {$/;"	m	class:User
+User	src/main/java/me/biubiubiu/cgb/core/User.java	/^public class User implements Serializable {$/;"	c
+UserActivity	src/main/java/me/biubiubiu/cgb/ui/UserActivity.java	/^public class UserActivity extends BootstrapActivity {$/;"	c
+UserAgentProvider	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^public class UserAgentProvider implements Provider<String> {$/;"	c
+UserListAdapter	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^    public UserListAdapter(LayoutInflater inflater) {$/;"	m	class:UserListAdapter
+UserListAdapter	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^    public UserListAdapter(LayoutInflater inflater, List<User> items) {$/;"	m	class:UserListAdapter
+UserListAdapter	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^public class UserListAdapter extends SingleTypeAdapter<User> {$/;"	c
+UserListFragment	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^public class UserListFragment  extends ItemListFragment<User> {$/;"	c
+UsersWrapper	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private static class UsersWrapper {$/;"	c	class:BootstrapService
+ViewSummary	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^public class ViewSummary implements Serializable {$/;"	c
+accountManager	src/main/java/me/biubiubiu/cgb/authenticator/ApiKeyProvider.java	/^    @Inject AccountManager accountManager;$/;"	f	class:ApiKeyProvider
+accountManager	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private AccountManager accountManager;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+accountManager	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^    protected AccountManager accountManager;$/;"	f	class:LogoutService
+addAccount	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public Bundle addAccount(AccountAuthenticatorResponse response, String accountType, String authTokenType,$/;"	m	class:BootstrapAccountAuthenticator
+addCredentialsTo	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private HttpRequest addCredentialsTo(HttpRequest request) {$/;"	m	class:BootstrapService	file:
+addFooter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public HeaderFooterListAdapter<E> addFooter(View view) {$/;"	m	class:HeaderFooterListAdapter
+addFooter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public HeaderFooterListAdapter<E> addFooter(View view, Object data,$/;"	m	class:HeaderFooterListAdapter
+addHeader	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public HeaderFooterListAdapter<E> addHeader(View view) {$/;"	m	class:HeaderFooterListAdapter
+addHeader	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public HeaderFooterListAdapter<E> addHeader(View view, Object data,$/;"	m	class:HeaderFooterListAdapter
+afterTextChanged	src/main/java/me/biubiubiu/cgb/ui/TextWatcherAdapter.java	/^    public void afterTextChanged(Editable s) {$/;"	m	class:TextWatcherAdapter
+apiKey	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private final String apiKey;$/;"	f	class:BootstrapService	file:
+appInfo	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    @Inject protected ApplicationInfo appInfo;$/;"	f	class:UserAgentProvider
+authToken	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private String authToken;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+authTokenType	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private String authTokenType;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+authenticationTask	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private SafeAsyncTask<Boolean> authenticationTask;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+avatar	src/main/java/me/biubiubiu/cgb/ui/UserActivity.java	/^    @InjectView(R.id.iv_avatar) protected ImageView avatar;$/;"	f	class:UserActivity
+avatarUrl	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String avatarUrl;$/;"	f	class:User
+base	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private long base;$/;"	f	class:TimerService	file:
+before	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    public void before() throws IOException {$/;"	m	class:BootstrapServiceTest
+beforeTextChanged	src/main/java/me/biubiubiu/cgb/ui/TextWatcherAdapter.java	/^    public void beforeTextChanged(CharSequence s, int start, int count, int after) {$/;"	m	class:TextWatcherAdapter
+call	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        public Boolean call() throws Exception {$/;"	m	class:LogoutService.LogoutTask
+call	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        public Void call() throws Exception {$/;"	m	class:SafeAsyncTask.Task
+cancel	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public boolean cancel( boolean mayInterruptIfRunning ) {$/;"	m	class:SafeAsyncTask
+capitalize	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String capitalize( String s ) {$/;"	m	class:Strings
+checkAuth	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private void checkAuth() {$/;"	m	class:CarouselActivity	file:
+chronometer	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.chronometer) protected TextView chronometer;$/;"	f	class:AddActivity
+chronometer	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.chronometer) protected TextView chronometer;$/;"	f	class:BootstrapTimerActivity
+chunk	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String[] chunk( String str, int chunkSize ) {$/;"	m	class:Strings
+classLoader	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    @Inject protected ClassLoader classLoader;$/;"	f	class:UserAgentProvider
+clearException	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    public Exception clearException() {$/;"	m	class:ThrowableLoader
+clearFooters	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public boolean clearFooters() {$/;"	m	class:HeaderFooterListAdapter
+clearHeaders	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public boolean clearHeaders() {$/;"	m	class:HeaderFooterListAdapter
+colors	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    private final int[][] colors;$/;"	f	class:BarGraphDrawable	file:
+config	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    @Inject protected static BaseConfig config = new BaseConfig();$/;"	f	class:Ln
+configure	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private HttpRequest configure(final HttpRequest request) {$/;"	m	class:BootstrapService	file:
+configureList	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    protected void configureList(Activity activity, ListView listView) {$/;"	m	class:CheckInsListFragment
+configureList	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void configureList(Activity activity, ListView listView) {$/;"	m	class:ItemListFragment
+configureList	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    protected void configureList(Activity activity, ListView listView) {$/;"	m	class:NewsListFragment
+configureList	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    protected void configureList(Activity activity, ListView listView) {$/;"	m	class:UserListFragment
+confirmCredentials	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public Bundle confirmCredentials(AccountAuthenticatorResponse response, Account account, Bundle options) {$/;"	m	class:BootstrapAccountAuthenticator
+confirmCredentials	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private Boolean confirmCredentials = false;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+content	src/main/java/me/biubiubiu/cgb/core/News.java	/^    private String content;$/;"	f	class:News	file:
+content	src/main/java/me/biubiubiu/cgb/ui/NewsActivity.java	/^    @InjectView(R.id.tv_content) protected TextView content;$/;"	f	class:NewsActivity
+context	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    private final Context context;$/;"	f	class:BootstrapAccountAuthenticator	file:
+context	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        private final Context context;$/;"	f	class:LogoutService.LogoutTask	file:
+context	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^    protected Context context;$/;"	f	class:LogoutService
+copy	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static int copy(Reader input, Writer output) {$/;"	m	class:Strings
+copyLarge	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static long copyLarge(Reader input, Writer output) throws RuntimeException {$/;"	m	class:Strings
+createAdapter	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    protected SingleTypeAdapter<CheckIn> createAdapter(List<CheckIn> items) {$/;"	m	class:CheckInsListFragment
+createAdapter	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected HeaderFooterListAdapter<SingleTypeAdapter<E>> createAdapter() {$/;"	m	class:ItemListFragment
+createAdapter	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected abstract SingleTypeAdapter<E> createAdapter(final List<E> items);$/;"	m	class:ItemListFragment
+createAdapter	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    protected SingleTypeAdapter<News> createAdapter(List<News> items) {$/;"	m	class:NewsListFragment
+createAdapter	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    protected SingleTypeAdapter<User> createAdapter(List<User> items) {$/;"	m	class:UserListFragment
+createReader	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    private static BufferedReader createReader(String value) throws IOException {$/;"	m	class:BootstrapServiceTest	file:
+currentRunningTimeInMillis	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private long currentRunningTimeInMillis;$/;"	f	class:TimerService	file:
+d	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int d(Object s1, Object... args) {$/;"	m	class:Ln
+d	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int d(Throwable t) {$/;"	m	class:Ln
+d	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int d(Throwable throwable, Object s1, Object... args) {$/;"	m	class:Ln
+data	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    private D data;$/;"	f	class:AsyncLoader	file:
+data	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    private final long[][] data;$/;"	f	class:BarGraphDrawable	file:
+data	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    private final D data;$/;"	f	class:ThrowableLoader	file:
+deliverResult	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    public void deliverResult(D data) {$/;"	m	class:AsyncLoader
+digest	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^    private static String digest(final String value) {$/;"	m	class:GravatarUtils	file:
+dispatchTimerUpdate	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void dispatchTimerUpdate(long now) {$/;"	m	class:TimerService	file:
+doCall	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected ResultT doCall() throws Exception {$/;"	m	class:SafeAsyncTask.Task
+doException	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected void doException( final Exception e ) throws Exception {$/;"	m	class:SafeAsyncTask.Task
+doFinally	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected void doFinally() throws Exception {$/;"	m	class:SafeAsyncTask.Task
+doPreExecute	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected void doPreExecute() throws Exception {$/;"	m	class:SafeAsyncTask.Task
+doSuccess	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected void doSuccess( final ResultT r ) throws Exception {$/;"	m	class:SafeAsyncTask.Task
+doThrowable	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected void doThrowable( final Throwable e ) throws Exception {$/;"	m	class:SafeAsyncTask.Task
+draw	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    public void draw(final Canvas canvas) {$/;"	m	class:BarGraphDrawable
+e	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int e( Object s1, Object... args) {$/;"	m	class:Ln
+e	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int e( Throwable throwable, Object s1, Object... args) {$/;"	m	class:Ln
+e	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int e(Throwable t) {$/;"	m	class:Ln
+editProperties	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public Bundle editProperties(AccountAuthenticatorResponse response, String accountType) {$/;"	m	class:BootstrapAccountAuthenticator
+email	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private String email;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+emailText	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    @InjectView(id.et_email) AutoCompleteTextView emailText;$/;"	f	class:BootstrapAuthenticatorActivity
+emptyView	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected TextView emptyView;$/;"	f	class:ItemListFragment
+equals	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static boolean equals( Object a, Object b ) {$/;"	m	class:Strings
+equalsIgnoreCase	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static boolean equalsIgnoreCase( Object a, Object b ) {$/;"	m	class:Strings
+exception	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    private Exception exception;$/;"	f	class:ThrowableLoader	file:
+execute	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    protected HttpRequest execute(HttpRequest request) throws IOException {$/;"	m	class:BootstrapService
+execute	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void execute( StackTraceElement[] launchLocation ) {$/;"	m	class:SafeAsyncTask
+execute	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public void execute() {$/;"	m	class:SafeAsyncTask
+executor	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected Executor executor;$/;"	f	class:SafeAsyncTask
+executor	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public Executor executor() {$/;"	m	class:SafeAsyncTask
+executor	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public SafeAsyncTask<ResultT> executor( Executor executor ) {$/;"	m	class:SafeAsyncTask
+fadeIn	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    private ItemListFragment<E> fadeIn(final View view, final boolean animate) {$/;"	m	class:ItemListFragment	file:
+finish	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^    public void finish() {$/;"	m	class:SherlockAccountAuthenticatorActivity
+finishConfirmCredentials	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void finishConfirmCredentials(boolean result) {$/;"	m	class:BootstrapAuthenticatorActivity
+finishLogin	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void finishLogin() {$/;"	m	class:BootstrapAuthenticatorActivity
+firstName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String firstName;$/;"	f	class:User
+footers	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    private final ArrayList<FixedViewInfo> footers;$/;"	f	class:HeaderFooterListAdapter	file:
+forceRefresh	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void forceRefresh() {$/;"	m	class:ItemListFragment
+formatTime	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public static String formatTime(long millis) {$/;"	m	class:AddActivity
+formatTime	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public static String formatTime(long millis) {$/;"	m	class:BootstrapTimerActivity
+fromJson	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private <V> V fromJson(HttpRequest request, Class<V> target) throws IOException {$/;"	m	class:BootstrapService	file:
+future	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected FutureTask<Void> future;$/;"	f	class:SafeAsyncTask
+future	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public FutureTask<Void> future() {$/;"	m	class:SafeAsyncTask
+get	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    public String get() {$/;"	m	class:UserAgentProvider
+getAuthKey	src/main/java/me/biubiubiu/cgb/authenticator/ApiKeyProvider.java	/^    public String getAuthKey(Activity activity) throws AccountsException, IOException {$/;"	m	class:ApiKeyProvider
+getAuthToken	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public Bundle getAuthToken(AccountAuthenticatorResponse response, Account account, String authTokenType,$/;"	m	class:BootstrapAccountAuthenticator
+getAuthTokenLabel	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public String getAuthTokenLabel(String authTokenType) {$/;"	m	class:BootstrapAccountAuthenticator
+getAuthenticator	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^    private BootstrapAccountAuthenticator getAuthenticator() {$/;"	m	class:AccountAuthenticatorService	file:
+getAvatarUrl	src/main/java/me/biubiubiu/cgb/core/User.java	/^    private String getAvatarUrl(String id) {$/;"	m	class:User	file:
+getAvatarUrl	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getAvatarUrl() {$/;"	m	class:User
+getBitmap	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap getBitmap(final File image) {$/;"	m	class:ImageUtils
+getBitmap	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap getBitmap(final File image, int width, int height) {$/;"	m	class:ImageUtils
+getBitmap	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap getBitmap(final String imagePath) {$/;"	m	class:ImageUtils
+getBitmap	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap getBitmap(final String imagePath, int sampleSize) {$/;"	m	class:ImageUtils
+getBitmap	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap getBitmap(final String imagePath, int width, int height) {$/;"	m	class:ImageUtils
+getCheckIns	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    public List<CheckIn> getCheckIns() throws IOException {$/;"	m	class:BootstrapService
+getChildViewIds	src/main/java/me/biubiubiu/cgb/ui/CheckInsListAdapter.java	/^    protected int[] getChildViewIds() {$/;"	m	class:CheckInsListAdapter
+getChildViewIds	src/main/java/me/biubiubiu/cgb/ui/NewsListAdapter.java	/^    protected int[] getChildViewIds() {$/;"	m	class:NewsListAdapter
+getChildViewIds	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^    protected int[] getChildViewIds() {$/;"	m	class:UserListAdapter
+getConfig	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static Config getConfig() {$/;"	m	class:Ln
+getContent	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public String getContent() {$/;"	m	class:News
+getContentEmptyResponse	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    public void getContentEmptyResponse() throws IOException {$/;"	m	class:BootstrapServiceTest
+getCount	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^    public int getCount() {$/;"	m	class:BootstrapPagerAdapter
+getErrorMessage	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    protected int getErrorMessage(Exception exception) {$/;"	m	class:CheckInsListFragment
+getErrorMessage	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected abstract int getErrorMessage(Exception exception);$/;"	m	class:ItemListFragment
+getErrorMessage	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    protected int getErrorMessage(Exception exception) {$/;"	m	class:NewsListFragment
+getErrorMessage	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    protected int getErrorMessage(Exception exception) {$/;"	m	class:UserListFragment
+getException	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected Exception getException(final Loader<List<E>> loader) {$/;"	m	class:ItemListFragment
+getException	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    public Exception getException() {$/;"	m	class:ThrowableLoader
+getFirstName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getFirstName() {$/;"	m	class:User
+getGravatarId	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getGravatarId() {$/;"	m	class:User
+getHash	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^    public static String getHash(String email) {$/;"	m	class:GravatarUtils
+getInstance	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    public static BootstrapApplication getInstance() {$/;"	m	class:BootstrapApplication
+getItem	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^    public Fragment getItem(int position) {$/;"	m	class:BootstrapPagerAdapter
+getItemId	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^    public long getItemId(final int position) {$/;"	m	class:UserListAdapter
+getLastName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getLastName() {$/;"	m	class:User
+getLatitude	src/main/java/me/biubiubiu/cgb/core/Location.java	/^    public double getLatitude() {$/;"	m	class:Location
+getListAdapter	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected HeaderFooterListAdapter<SingleTypeAdapter<E>> getListAdapter() {$/;"	m	class:ItemListFragment
+getListView	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public ListView getListView() {$/;"	m	class:ItemListFragment
+getLocation	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    public Location getLocation() {$/;"	m	class:CheckIn
+getLoggingLevel	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public int getLoggingLevel() {$/;"	m	class:Ln.BaseConfig
+getLoggingLevel	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public int getLoggingLevel();$/;"	m	interface:Ln.Config
+getLogoutService	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    LogoutService getLogoutService() {$/;"	m	class:CheckInsListFragment
+getLogoutService	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    abstract LogoutService getLogoutService();$/;"	m	class:ItemListFragment
+getLogoutService	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    LogoutService getLogoutService() {$/;"	m	class:NewsListFragment
+getLogoutService	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    LogoutService getLogoutService() {$/;"	m	class:UserListFragment
+getLongitude	src/main/java/me/biubiubiu/cgb/core/Location.java	/^    public double getLongitude() {$/;"	m	class:Location
+getMillis	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^    public long getMillis() {$/;"	m	class:TimerTickEvent
+getName	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    public String getName() {$/;"	m	class:CheckIn
+getNews	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    public List<News> getNews() throws IOException {$/;"	m	class:BootstrapService
+getNotification	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private Notification getNotification(String message) {$/;"	m	class:TimerService	file:
+getObjectId	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    public String getObjectId() {$/;"	m	class:CheckIn
+getObjectId	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public String getObjectId() {$/;"	m	class:News
+getObjectId	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getObjectId() {$/;"	m	class:User
+getPageTitle	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^    public CharSequence getPageTitle(int position) {$/;"	m	class:BootstrapPagerAdapter
+getPeople	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    public long getPeople() {$/;"	m	class:ViewSummary
+getPhone	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getPhone() {$/;"	m	class:User
+getReferrersEmptyResponse	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    public void getReferrersEmptyResponse() throws IOException {$/;"	m	class:BootstrapServiceTest
+getRootModule	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    private Object getRootModule() {$/;"	m	class:BootstrapApplication	file:
+getScope	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected static String getScope(int skipDepth) {$/;"	m	class:Ln.Print
+getSeconds	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^    public long getSeconds() {$/;"	m	class:TimerTickEvent
+getService	src/main/java/me/biubiubiu/cgb/BootstrapServiceProvider.java	/^    public BootstrapService getService(Activity activity) throws IOException, AccountsException {$/;"	m	class:BootstrapServiceProvider
+getSessionToken	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getSessionToken() {$/;"	m	class:User
+getSize	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Point getSize(final String imagePath) {$/;"	m	class:ImageUtils
+getSystemService	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    public <T> T getSystemService(Context context, String serviceConstant)$/;"	m	class:AndroidModule
+getTitle	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public String getTitle() {$/;"	m	class:News
+getUsername	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public String getUsername() {$/;"	m	class:User
+getUsers	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    public List<User> getUsers() throws IOException {$/;"	m	class:BootstrapService
+getUsersEmptyResponse	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    public void getUsersEmptyResponse() throws IOException {$/;"	m	class:BootstrapServiceTest
+getViews	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    public long getViews() {$/;"	m	class:ViewSummary
+getWrappedAdapter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public E getWrappedAdapter() {$/;"	m	class:HeaderFooterListAdapter
+gravatarId	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String gravatarId;$/;"	f	class:User
+handleLogin	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public void handleLogin(View view) {$/;"	m	class:BootstrapAuthenticatorActivity
+handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected Handler handler;$/;"	f	class:SafeAsyncTask.Task
+handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected Handler handler;$/;"	f	class:SafeAsyncTask
+handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public Handler handler() {$/;"	m	class:SafeAsyncTask
+handler	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    public SafeAsyncTask<ResultT> handler( Handler handler ) {$/;"	m	class:SafeAsyncTask
+hasFeatures	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public Bundle hasFeatures(AccountAuthenticatorResponse response, Account account, String[] features)$/;"	m	class:BootstrapAccountAuthenticator
+headers	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    private final ArrayList<FixedViewInfo> headers;$/;"	f	class:HeaderFooterListAdapter	file:
+hide	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    private ItemListFragment<E> hide(final View view) {$/;"	m	class:ItemListFragment	file:
+hideProgress	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void hideProgress() {$/;"	m	class:BootstrapAuthenticatorActivity
+i	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int i( Object s1, Object... args) {$/;"	m	class:Ln
+i	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int i(Throwable t) {$/;"	m	class:Ln
+i	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int i(Throwable throwable, Object s1, Object... args) {$/;"	m	class:Ln
+indicator	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    @InjectView(R.id.tpi_header) TitlePageIndicator indicator;$/;"	f	class:CarouselActivity
+info	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    @Inject protected PackageInfo info;$/;"	f	class:UserAgentProvider
+init	src/main/java/me/biubiubiu/cgb/Injector.java	/^    public static void init(final Object rootModule) {$/;"	m	class:Injector
+init	src/main/java/me/biubiubiu/cgb/Injector.java	/^    public static void init(final Object rootModule, final Object target)$/;"	m	class:Injector
+initScreen	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private void initScreen() {$/;"	m	class:CarouselActivity	file:
+inject	src/main/java/me/biubiubiu/cgb/Injector.java	/^    public static final void inject(final Object target)$/;"	m	class:Injector
+instance	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    private static BootstrapApplication instance;$/;"	f	class:BootstrapApplication	file:
+isDebugEnabled	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static boolean isDebugEnabled() {$/;"	m	class:Ln
+isEmpty	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public boolean isEmpty() {$/;"	m	class:HeaderFooterListAdapter
+isEmpty	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static boolean isEmpty( final Object o ) {$/;"	m	class:Strings
+isForceRefresh	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected static boolean isForceRefresh(Bundle args) {$/;"	m	class:ItemListFragment
+isPaused	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private boolean isPaused;$/;"	f	class:TimerService	file:
+isPostOrPut	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private boolean isPostOrPut(HttpRequest request) {$/;"	m	class:BootstrapService	file:
+isTimerIsPaused	src/main/java/me/biubiubiu/cgb/core/TimerPausedEvent.java	/^    public boolean isTimerIsPaused() {$/;"	m	class:TimerPausedEvent
+isTimerServiceRunning	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private boolean isTimerServiceRunning() {$/;"	m	class:AddActivity	file:
+isTimerServiceRunning	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private boolean isTimerServiceRunning() {$/;"	m	class:BootstrapTimerActivity	file:
+isUsable	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected boolean isUsable() {$/;"	m	class:ItemListFragment
+isVerboseEnabled	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static boolean isVerboseEnabled() {$/;"	m	class:Ln
+items	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected List<E> items = Collections.emptyList();$/;"	f	class:ItemListFragment
+join	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static <T> String join( final String delimiter, final Collection<T> objs) {$/;"	m	class:Strings
+join	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static <T> String join(final String delimiter, final T... objects ) {$/;"	m	class:Strings
+joinAnd	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static <T> String joinAnd( final String delimiter, final String lastDelimiter, final Collection<T> objs ) {$/;"	m	class:Strings
+joinAnd	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static <T> String joinAnd( final String delimiter, final String lastDelimiter, final T... objs ) {$/;"	m	class:Strings
+keyProvider	src/main/java/me/biubiubiu/cgb/BootstrapServiceProvider.java	/^    @Inject ApiKeyProvider keyProvider;$/;"	f	class:BootstrapServiceProvider
+lastName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String lastName;$/;"	f	class:User
+latitude	src/main/java/me/biubiubiu/cgb/core/Location.java	/^    private double latitude;$/;"	f	class:Location	file:
+launchLocation	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected StackTraceElement[] launchLocation;$/;"	f	class:SafeAsyncTask
+list	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    private final ListView list;$/;"	f	class:HeaderFooterListAdapter	file:
+listShown	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected boolean listShown;$/;"	f	class:ItemListFragment
+listView	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ListView listView;$/;"	f	class:ItemListFragment
+loadData	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    public abstract D loadData() throws Exception;$/;"	m	class:ThrowableLoader
+loadInBackground	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^    public D loadInBackground() {$/;"	m	class:ThrowableLoader
+location	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    private Location location;$/;"	f	class:CheckIn	file:
+logLevelToString	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static String logLevelToString( int loglevel ) {$/;"	m	class:Ln
+logout	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^    public void logout(final Runnable onSuccess) {$/;"	m	class:LogoutService
+logout	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    private void logout() {$/;"	m	class:ItemListFragment	file:
+logoutService	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    @Inject protected LogoutService logoutService;$/;"	f	class:CheckInsListFragment
+logoutService	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    @Inject protected LogoutService logoutService;$/;"	f	class:NewsListFragment
+logoutService	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    @Inject LogoutService logoutService;$/;"	f	class:UserListFragment
+longitude	src/main/java/me/biubiubiu/cgb/core/Location.java	/^    private double longitude;$/;"	f	class:Location	file:
+mAccountAuthenticatorResponse	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^    private AccountAuthenticatorResponse mAccountAuthenticatorResponse = null;$/;"	f	class:SherlockAccountAuthenticatorActivity	file:
+mResultBundle	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^    private Bundle mResultBundle = null;$/;"	f	class:SherlockAccountAuthenticatorActivity	file:
+max	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^    private long max = 1;$/;"	f	class:BarGraphDrawable	file:
+md5	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String md5(String s) {$/;"	m	class:Strings
+me.biubiubiu.cgb	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^package me.biubiubiu.cgb;$/;"	p
+me.biubiubiu.cgb	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^package me.biubiubiu.cgb;$/;"	p
+me.biubiubiu.cgb	src/main/java/me/biubiubiu/cgb/BootstrapModule.java	/^package me.biubiubiu.cgb;$/;"	p
+me.biubiubiu.cgb	src/main/java/me/biubiubiu/cgb/BootstrapServiceProvider.java	/^package me.biubiubiu.cgb;$/;"	p
+me.biubiubiu.cgb	src/main/java/me/biubiubiu/cgb/Injector.java	/^package me.biubiubiu.cgb;$/;"	p
+me.biubiubiu.cgb	src/main/java/me/biubiubiu/cgb/RootModule.java	/^package me.biubiubiu.cgb;$/;"	p
+me.biubiubiu.cgb.authenticator	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^package me.biubiubiu.cgb.authenticator;$/;"	p
+me.biubiubiu.cgb.authenticator	src/main/java/me/biubiubiu/cgb/authenticator/ApiKeyProvider.java	/^package me.biubiubiu.cgb.authenticator;$/;"	p
+me.biubiubiu.cgb.authenticator	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^package me.biubiubiu.cgb.authenticator;$/;"	p
+me.biubiubiu.cgb.authenticator	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^package me.biubiubiu.cgb.authenticator;$/;"	p
+me.biubiubiu.cgb.authenticator	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^package me.biubiubiu.cgb.authenticator;$/;"	p
+me.biubiubiu.cgb.authenticator	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^package me.biubiubiu.cgb.authenticator;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/Constants.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/GravatarUtils.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/IntentFactory.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/Location.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/News.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/PauseTimerEvent.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/ResumeTimerEvent.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/StopTimerEvent.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/TimerPausedEvent.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/User.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^package me.biubiubiu.cgb.core;$/;"	p
+me.biubiubiu.cgb.core.core	src/test/java/me/biubiubiu/cgb/core/core/BootstrapApiClientUtilTest.java	/^package me.biubiubiu.cgb.core.core;$/;"	p
+me.biubiubiu.cgb.core.core	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^package me.biubiubiu.cgb.core.core;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/BarGraphDrawable.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/BootstrapActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/BootstrapFragmentActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/CheckInsListAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/NewsActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/NewsListAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/TextWatcherAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/ThrowableLoader.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/UserActivity.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^package me.biubiubiu.cgb.ui;$/;"	p
+me.biubiubiu.cgb.ui.view	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^package me.biubiubiu.cgb.ui.view;$/;"	p
+me.biubiubiu.cgb.util	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^package me.biubiubiu.cgb.util;$/;"	p
+me.biubiubiu.cgb.util	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^package me.biubiubiu.cgb.util;$/;"	p
+me.biubiubiu.cgb.util	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^package me.biubiubiu.cgb.util;$/;"	p
+menuDrawer	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private MenuDrawer menuDrawer;$/;"	f	class:CarouselActivity	file:
+millis	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^    private final long millis;$/;"	f	class:TimerTickEvent	file:
+minimumLogLevel	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected int minimumLogLevel = Log.VERBOSE;$/;"	f	class:Ln.BaseConfig
+mockNews	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    private List<News> mockNews() {$/;"	m	class:NewsListFragment	file:
+mockUser	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    private List<User> mockUser() {$/;"	m	class:UserListFragment	file:
+name	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    private String name;$/;"	f	class:CheckIn	file:
+name	src/main/java/me/biubiubiu/cgb/ui/UserActivity.java	/^    @InjectView(R.id.tv_name) protected TextView name;$/;"	f	class:UserActivity
+namedFormat	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String namedFormat( String str, Object... nameValuePairs ) {$/;"	m	class:Strings
+namedFormat	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String namedFormat(String str, Map<String, String> substitutions) {$/;"	m	class:Strings
+navigateToTimer	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private void navigateToTimer() {$/;"	m	class:CarouselActivity	file:
+newTask	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected Task<ResultT> newTask() {$/;"	m	class:SafeAsyncTask
+newsItem	src/main/java/me/biubiubiu/cgb/ui/NewsActivity.java	/^    protected News newsItem;$/;"	f	class:NewsActivity
+notEmpty	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static boolean notEmpty( final Object o ) {$/;"	m	class:Strings
+notificationManager	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    @Inject NotificationManager notificationManager;$/;"	f	class:TimerService
+notifyTimerRunning	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void notifyTimerRunning() {$/;"	m	class:TimerService	file:
+objectGraph	src/main/java/me/biubiubiu/cgb/Injector.java	/^    public static ObjectGraph objectGraph = null;$/;"	f	class:Injector
+objectId	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    private String objectId;$/;"	f	class:CheckIn	file:
+objectId	src/main/java/me/biubiubiu/cgb/core/News.java	/^    private String objectId;$/;"	f	class:News	file:
+objectId	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String objectId;$/;"	f	class:User
+onActivityCreated	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    public void onActivityCreated(Bundle savedInstanceState) {$/;"	m	class:CheckInsListFragment
+onActivityCreated	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onActivityCreated(Bundle savedInstanceState) {$/;"	m	class:ItemListFragment
+onActivityCreated	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    public void onActivityCreated(Bundle savedInstanceState) {$/;"	m	class:NewsListFragment
+onActivityCreated	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public void onActivityCreated(Bundle savedInstanceState) {$/;"	m	class:UserListFragment
+onAuthenticationResult	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public void onAuthenticationResult(boolean result) {$/;"	m	class:BootstrapAuthenticatorActivity
+onBind	src/main/java/me/biubiubiu/cgb/authenticator/AccountAuthenticatorService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:AccountAuthenticatorService
+onBind	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:TimerService
+onClick	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onClick(View v) {$/;"	m	class:AddActivity
+onClick	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onClick(View v) {$/;"	m	class:BootstrapTimerActivity
+onCreate	src/main/java/me/biubiubiu/cgb/BootstrapApplication.java	/^    public void onCreate() {$/;"	m	class:BootstrapApplication
+onCreate	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    public void onCreate(Bundle bundle) {$/;"	m	class:BootstrapAuthenticatorActivity
+onCreate	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^    protected void onCreate(Bundle icicle) {$/;"	m	class:SherlockAccountAuthenticatorActivity
+onCreate	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onCreate() {$/;"	m	class:TimerService
+onCreate	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:AddActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/BootstrapActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:BootstrapActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/BootstrapFragmentActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:BootstrapFragmentActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:BootstrapTimerActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:CarouselActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:CheckInsListFragment
+onCreate	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:ItemListFragment
+onCreate	src/main/java/me/biubiubiu/cgb/ui/NewsActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:NewsActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:NewsListFragment
+onCreate	src/main/java/me/biubiubiu/cgb/ui/UserActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:UserActivity
+onCreate	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:UserListFragment
+onCreateDialog	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected Dialog onCreateDialog(int id) {$/;"	m	class:BootstrapAuthenticatorActivity
+onCreateLoader	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    public Loader<List<CheckIn>> onCreateLoader(int id, Bundle args) {$/;"	m	class:CheckInsListFragment
+onCreateLoader	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    public Loader<List<News>> onCreateLoader(int id, Bundle args) {$/;"	m	class:NewsListFragment
+onCreateLoader	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public Loader<List<User>> onCreateLoader(int id, Bundle args) {$/;"	m	class:UserListFragment
+onCreateOptionsMenu	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onCreateOptionsMenu(Menu optionsMenu, MenuInflater inflater) {$/;"	m	class:ItemListFragment
+onCreateView	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public View onCreateView(LayoutInflater inflater, ViewGroup container,$/;"	m	class:ItemListFragment
+onDestroy	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onDestroy() {$/;"	m	class:TimerService
+onDestroyView	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    public void onDestroyView() {$/;"	m	class:CheckInsListFragment
+onDestroyView	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onDestroyView() {$/;"	m	class:ItemListFragment
+onDestroyView	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    public void onDestroyView() {$/;"	m	class:NewsListFragment
+onException	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        protected void onException(Exception e) throws RuntimeException {$/;"	m	class:LogoutService.LogoutTask
+onException	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onException( Exception e ) throws RuntimeException {$/;"	m	class:SafeAsyncTask
+onFinally	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onFinally() throws RuntimeException {}$/;"	m	class:SafeAsyncTask
+onInterrupted	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onInterrupted( Exception e ) {$/;"	m	class:SafeAsyncTask
+onListItemClick	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    public void onListItemClick(ListView l, View v, int position, long id) {$/;"	m	class:CheckInsListFragment
+onListItemClick	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onListItemClick(ListView l, View v, int position, long id) {$/;"	m	class:ItemListFragment
+onListItemClick	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    public void onListItemClick(ListView l, View v, int position, long id) {$/;"	m	class:NewsListFragment
+onListItemClick	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public void onListItemClick(ListView l, View v, int position, long id) {$/;"	m	class:UserListFragment
+onLoadFinished	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onLoadFinished(Loader<List<E>> loader, List<E> items) {$/;"	m	class:ItemListFragment
+onLoadFinished	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    public void onLoadFinished(Loader<List<User>> loader, List<User> items) {$/;"	m	class:UserListFragment
+onLoaderReset	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onLoaderReset(Loader<List<E>> loader) {$/;"	m	class:ItemListFragment
+onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/BootstrapActivity.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:BootstrapActivity
+onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:CarouselActivity
+onOptionsItemSelected	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:ItemListFragment
+onPause	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    protected void onPause() {$/;"	m	class:AddActivity
+onPause	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    protected void onPause() {$/;"	m	class:BootstrapTimerActivity
+onPauseEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onPauseEvent(PauseTimerEvent pauseEvent) {$/;"	m	class:TimerService
+onPauseEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onPauseEvent(PauseTimerEvent event) {$/;"	m	class:AddActivity
+onPauseEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onPauseEvent(PauseTimerEvent event) {$/;"	m	class:BootstrapTimerActivity
+onPreExecute	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onPreExecute() throws Exception {}$/;"	m	class:SafeAsyncTask
+onReset	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    protected void onReset() {$/;"	m	class:AsyncLoader
+onResume	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void onResume() {$/;"	m	class:BootstrapAuthenticatorActivity
+onResume	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    protected void onResume() {$/;"	m	class:AddActivity
+onResume	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    protected void onResume() {$/;"	m	class:BootstrapTimerActivity
+onResumeEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onResumeEvent(ResumeTimerEvent event) {$/;"	m	class:AddActivity
+onResumeEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onResumeEvent(ResumeTimerEvent event) {$/;"	m	class:BootstrapTimerActivity
+onResumeTimerEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onResumeTimerEvent(ResumeTimerEvent resumeTimerEvent) {$/;"	m	class:TimerService
+onStartCommand	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:TimerService
+onStartLoading	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    protected void onStartLoading() {$/;"	m	class:AsyncLoader
+onStopEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public void onStopEvent(StopTimerEvent stopEvent) {$/;"	m	class:TimerService
+onStopEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onStopEvent(StopTimerEvent event) {$/;"	m	class:AddActivity
+onStopEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onStopEvent(StopTimerEvent event) {$/;"	m	class:BootstrapTimerActivity
+onStopLoading	src/main/java/me/biubiubiu/cgb/ui/AsyncLoader.java	/^    protected void onStopLoading() {$/;"	m	class:AsyncLoader
+onSuccess	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        private Runnable onSuccess;$/;"	f	class:LogoutService.LogoutTask	file:
+onSuccess	src/main/java/me/biubiubiu/cgb/authenticator/LogoutService.java	/^        protected void onSuccess(Boolean accountWasRemoved) throws Exception {$/;"	m	class:LogoutService.LogoutTask
+onSuccess	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onSuccess( ResultT t ) throws Exception {}$/;"	m	class:SafeAsyncTask
+onTextChanged	src/main/java/me/biubiubiu/cgb/ui/TextWatcherAdapter.java	/^    public void onTextChanged(CharSequence s, int start, int before, int count) {$/;"	m	class:TextWatcherAdapter
+onThrowable	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^    protected void onThrowable( Throwable t ) throws RuntimeException {$/;"	m	class:SafeAsyncTask
+onTickEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onTickEvent(TimerTickEvent event) {$/;"	m	class:AddActivity
+onTickEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onTickEvent(TimerTickEvent event) {$/;"	m	class:BootstrapTimerActivity
+onTimerPausedEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    public void onTimerPausedEvent(TimerPausedEvent event) {$/;"	m	class:AddActivity
+onTimerPausedEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    public void onTimerPausedEvent(TimerPausedEvent event) {$/;"	m	class:BootstrapTimerActivity
+onViewCreated	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void onViewCreated(View view, Bundle savedInstanceState) {$/;"	m	class:ItemListFragment
+packageName	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected String packageName = "";$/;"	f	class:Ln.BaseConfig
+pager	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    @InjectView(R.id.vp_pages) ViewPager pager;$/;"	f	class:CarouselActivity
+parent	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected SafeAsyncTask<ResultT> parent;$/;"	f	class:SafeAsyncTask.Task
+password	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private String password;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+password	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private final String password;$/;"	f	class:BootstrapService	file:
+passwordText	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    @InjectView(id.et_password) EditText passwordText;$/;"	f	class:BootstrapAuthenticatorActivity
+pause	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.pause) protected Button pause;$/;"	f	class:AddActivity
+pause	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.pause) protected Button pause;$/;"	f	class:BootstrapTimerActivity
+pauseTimer	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void pauseTimer() {$/;"	m	class:TimerService	file:
+pausedBaseTime	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private long pausedBaseTime;$/;"	f	class:TimerService	file:
+people	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    private long people;$/;"	f	class:ViewSummary	file:
+phone	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String phone;$/;"	f	class:User
+populated	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private boolean populated(EditText editText) {$/;"	m	class:BootstrapAuthenticatorActivity	file:
+postToUiThreadAndWait	src/main/java/me/biubiubiu/cgb/util/SafeAsyncTask.java	/^        protected void postToUiThreadAndWait( final Callable c ) throws Exception {$/;"	m	class:SafeAsyncTask.Task
+primaryResource	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^    private final int primaryResource;$/;"	f	class:AlternatingColorListAdapter	file:
+print	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    @Inject protected static Print print = new Print();$/;"	f	class:Ln
+println	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public int println(int priority, String msg ) {$/;"	m	class:Ln.Print
+processMessage	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected String processMessage(String msg) {$/;"	m	class:Ln.Print
+producePauseEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void producePauseEvent() {$/;"	m	class:AddActivity	file:
+producePauseEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void producePauseEvent() {$/;"	m	class:BootstrapTimerActivity	file:
+produceResumeEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void produceResumeEvent() {$/;"	m	class:AddActivity	file:
+produceResumeEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void produceResumeEvent() {$/;"	m	class:BootstrapTimerActivity	file:
+produceStopEvent	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void produceStopEvent() {$/;"	m	class:AddActivity	file:
+produceStopEvent	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void produceStopEvent() {$/;"	m	class:BootstrapTimerActivity	file:
+produceTickEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public TimerTickEvent produceTickEvent() {$/;"	m	class:TimerService
+produceTimerIsPausedEvent	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    public TimerPausedEvent produceTimerIsPausedEvent() {$/;"	m	class:TimerService
+progressBar	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ProgressBar progressBar;$/;"	f	class:ItemListFragment
+provideAccountManager	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    AccountManager provideAccountManager(final Context context) {$/;"	m	class:AndroidModule
+provideAppContext	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    Context provideAppContext()$/;"	m	class:AndroidModule
+provideApplicationInfo	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    ApplicationInfo provideApplicationInfo(final Context context) {$/;"	m	class:AndroidModule
+provideClassLoader	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    ClassLoader provideClassLoader(final Context context) {$/;"	m	class:AndroidModule
+provideDefaultSharedPreferences	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    SharedPreferences provideDefaultSharedPreferences(final Context context)$/;"	m	class:AndroidModule
+provideInputMethodManager	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    InputMethodManager provideInputMethodManager(final Context context)$/;"	m	class:AndroidModule
+provideLogoutService	src/main/java/me/biubiubiu/cgb/BootstrapModule.java	/^    LogoutService provideLogoutService(final Context context, final AccountManager accountManager) {$/;"	m	class:BootstrapModule
+provideNotificationManager	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    NotificationManager provideNotificationManager(final Context context) {$/;"	m	class:AndroidModule
+provideOttoBus	src/main/java/me/biubiubiu/cgb/BootstrapModule.java	/^    Bus provideOttoBus() {$/;"	m	class:BootstrapModule
+providePackageInfo	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    PackageInfo providePackageInfo(Context context)$/;"	m	class:AndroidModule
+provideTelephonyManager	src/main/java/me/biubiubiu/cgb/AndroidModule.java	/^    TelephonyManager provideTelephonyManager(Context context)$/;"	m	class:AndroidModule
+refresh	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    private void refresh(final Bundle args) {$/;"	m	class:ItemListFragment	file:
+refresh	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public void refresh() {$/;"	m	class:ItemListFragment
+refreshWithProgress	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void refreshWithProgress() {$/;"	m	class:ItemListFragment
+removeFooter	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public boolean removeFooter(View v) {$/;"	m	class:HeaderFooterListAdapter
+removeHeader	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    public boolean removeHeader(View v) {$/;"	m	class:HeaderFooterListAdapter
+request	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    private HttpRequest request;$/;"	f	class:BootstrapServiceTest	file:
+requestNewAccount	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected boolean requestNewAccount = false;$/;"	f	class:BootstrapAuthenticatorActivity
+resolve	src/main/java/me/biubiubiu/cgb/Injector.java	/^    public static <T> T resolve(Class<T> type)$/;"	m	class:Injector
+resources	src/main/java/me/biubiubiu/cgb/ui/BootstrapPagerAdapter.java	/^    private final Resources resources;$/;"	f	class:BootstrapPagerAdapter	file:
+results	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private List<CheckIn> results;$/;"	f	class:BootstrapService.CheckInWrapper	file:
+results	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private List<News> results;$/;"	f	class:BootstrapService.NewsWrapper	file:
+results	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private List<User> results;$/;"	f	class:BootstrapService.UsersWrapper	file:
+resume	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.resume) protected Button resume;$/;"	f	class:AddActivity
+resume	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.resume) protected Button resume;$/;"	f	class:BootstrapTimerActivity
+roundCorners	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static Bitmap roundCorners(final Bitmap source, final float radius) {$/;"	m	class:ImageUtils
+scope	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        protected String scope = "";$/;"	f	class:Ln.BaseConfig
+secondaryResource	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^    private final int secondaryResource;$/;"	f	class:AlternatingColorListAdapter	file:
+serialVersionUID	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^        private static final long serialVersionUID = 3774706606129390273L;$/;"	f	class:BootstrapService.JsonException	file:
+serialVersionUID	src/main/java/me/biubiubiu/cgb/core/News.java	/^    private static final long serialVersionUID = -6641292855569752036L;$/;"	f	class:News	file:
+serialVersionUID	src/main/java/me/biubiubiu/cgb/core/User.java	/^    private static final long serialVersionUID = -7495897652017488896L;$/;"	f	class:User	file:
+serialVersionUID	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    private static final long serialVersionUID = 1916316095553659715L;$/;"	f	class:ViewSummary	file:
+service	src/test/java/me/biubiubiu/cgb/core/core/BootstrapServiceTest.java	/^    private BootstrapService service;$/;"	f	class:BootstrapServiceTest	file:
+serviceProvider	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    @Inject BootstrapServiceProvider serviceProvider;$/;"	f	class:CarouselActivity
+serviceProvider	src/main/java/me/biubiubiu/cgb/ui/CheckInsListFragment.java	/^    @Inject protected BootstrapServiceProvider serviceProvider;$/;"	f	class:CheckInsListFragment
+serviceProvider	src/main/java/me/biubiubiu/cgb/ui/NewsListFragment.java	/^    @Inject protected BootstrapServiceProvider serviceProvider;$/;"	f	class:NewsListFragment
+serviceProvider	src/main/java/me/biubiubiu/cgb/ui/UserListFragment.java	/^    @Inject BootstrapServiceProvider serviceProvider;$/;"	f	class:UserListFragment
+sessionToken	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String sessionToken;$/;"	f	class:User
+setAccountAuthenticatorResult	src/main/java/me/biubiubiu/cgb/authenticator/SherlockAccountAuthenticatorActivity.java	/^    public final void setAccountAuthenticatorResult(Bundle result) {$/;"	m	class:SherlockAccountAuthenticatorActivity
+setContent	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public void setContent(String content) {$/;"	m	class:News
+setContentView	src/main/java/me/biubiubiu/cgb/ui/BootstrapActivity.java	/^    public void setContentView(int layoutResId) {$/;"	m	class:BootstrapActivity
+setContentView	src/main/java/me/biubiubiu/cgb/ui/BootstrapFragmentActivity.java	/^    public void setContentView(int layoutResId) {$/;"	m	class:BootstrapFragmentActivity
+setEmptyText	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ItemListFragment<E> setEmptyText(final String message) {$/;"	m	class:ItemListFragment
+setEmptyText	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ItemListFragment<E> setEmptyText(final int resId) {$/;"	m	class:ItemListFragment
+setFirstName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setFirstName(String firstName) {$/;"	m	class:User
+setFormattedTime	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void setFormattedTime(long millis) {$/;"	m	class:AddActivity	file:
+setFormattedTime	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void setFormattedTime(long millis) {$/;"	m	class:BootstrapTimerActivity	file:
+setImage	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static void setImage(final File image, final ImageView view) {$/;"	m	class:ImageUtils
+setImage	src/main/java/me/biubiubiu/cgb/core/ImageUtils.java	/^    public static void setImage(final String imagePath, final ImageView view) {$/;"	m	class:ImageUtils
+setLastName	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setLastName(String lastName) {$/;"	m	class:User
+setLatitude	src/main/java/me/biubiubiu/cgb/core/Location.java	/^    public void setLatitude(double latitude) {$/;"	m	class:Location
+setListAdapter	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected ItemListFragment<E> setListAdapter(final ListAdapter adapter) {$/;"	m	class:ItemListFragment
+setListShown	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public ItemListFragment<E> setListShown(final boolean shown) {$/;"	m	class:ItemListFragment
+setListShown	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    public ItemListFragment<E> setListShown(final boolean shown,$/;"	m	class:ItemListFragment
+setLocation	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    public void setLocation(Location location) {$/;"	m	class:CheckIn
+setLoggingLevel	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public void setLoggingLevel(int level) {$/;"	m	class:Ln.BaseConfig
+setLoggingLevel	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^        public void setLoggingLevel(int level);$/;"	m	interface:Ln.Config
+setLongitude	src/main/java/me/biubiubiu/cgb/core/Location.java	/^    public void setLongitude(double longitude) {$/;"	m	class:Location
+setName	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    public void setName(String name) {$/;"	m	class:CheckIn
+setNavListeners	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private void setNavListeners() {$/;"	m	class:CarouselActivity	file:
+setObjectId	src/main/java/me/biubiubiu/cgb/core/CheckIn.java	/^    public void setObjectId(String objectId) {$/;"	m	class:CheckIn
+setObjectId	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public void setObjectId(String objectId) {$/;"	m	class:News
+setObjectId	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setObjectId(String objectId) {$/;"	m	class:User
+setPeople	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    public ViewSummary setPeople(long people) {$/;"	m	class:ViewSummary
+setPhone	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setPhone(String phone) {$/;"	m	class:User
+setSessionToken	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setSessionToken(String sessionToken) {$/;"	m	class:User
+setTF	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^    private void setTF(Context context) {$/;"	m	class:CapitalizedTextView	file:
+setText	src/main/java/me/biubiubiu/cgb/ui/view/CapitalizedTextView.java	/^    public void setText(CharSequence text, BufferType type) {$/;"	m	class:CapitalizedTextView
+setTitle	src/main/java/me/biubiubiu/cgb/core/News.java	/^    public void setTitle(String title) {$/;"	m	class:News
+setUsername	src/main/java/me/biubiubiu/cgb/core/User.java	/^    public void setUsername(String username) {$/;"	m	class:User
+setViews	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    public ViewSummary setViews(long views) {$/;"	m	class:ViewSummary
+shouldCreateClient	src/test/java/me/biubiubiu/cgb/core/core/BootstrapApiClientUtilTest.java	/^    public void shouldCreateClient() throws Exception {$/;"	m	class:BootstrapApiClientUtilTest
+show	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    private ItemListFragment<E> show(final View view) {$/;"	m	class:ItemListFragment	file:
+showError	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void showError(final int message) {$/;"	m	class:ItemListFragment
+showList	src/main/java/me/biubiubiu/cgb/ui/ItemListFragment.java	/^    protected void showList() {$/;"	m	class:ItemListFragment
+showProgress	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    protected void showProgress() {$/;"	m	class:BootstrapAuthenticatorActivity
+signinButton	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    @InjectView(id.b_signin) Button signinButton;$/;"	f	class:BootstrapAuthenticatorActivity
+start	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.start) protected Button start;$/;"	f	class:AddActivity
+start	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.start) protected Button start;$/;"	f	class:BootstrapTimerActivity
+startChronoTimer	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void startChronoTimer() {$/;"	m	class:TimerService	file:
+startTimer	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void startTimer() {$/;"	m	class:TimerService	file:
+startTimer	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    private void startTimer() {$/;"	m	class:AddActivity	file:
+startTimer	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    private void startTimer() {$/;"	m	class:BootstrapTimerActivity	file:
+stop	src/main/java/me/biubiubiu/cgb/ui/AddActivity.java	/^    @InjectView(R.id.stop) protected Button stop;$/;"	f	class:AddActivity
+stop	src/main/java/me/biubiubiu/cgb/ui/BootstrapTimerActivity.java	/^    @InjectView(R.id.stop) protected Button stop;$/;"	f	class:BootstrapTimerActivity
+telephonyManager	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    @Inject protected TelephonyManager telephonyManager;$/;"	f	class:UserAgentProvider
+timerHandler	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private Handler timerHandler = new Handler() {$/;"	f	class:TimerService	file:
+timerIsPaused	src/main/java/me/biubiubiu/cgb/core/TimerPausedEvent.java	/^    private boolean timerIsPaused;$/;"	f	class:TimerPausedEvent	file:
+timerRunning	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private boolean timerRunning = false;$/;"	f	class:TimerService	file:
+timerStarted	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private boolean timerStarted;$/;"	f	class:TimerService	file:
+title	src/main/java/me/biubiubiu/cgb/core/News.java	/^    private String title;$/;"	f	class:News	file:
+title	src/main/java/me/biubiubiu/cgb/ui/NewsActivity.java	/^    @InjectView(R.id.tv_title) protected TextView title;$/;"	f	class:NewsActivity
+toString	src/main/java/me/biubiubiu/cgb/core/TimerTickEvent.java	/^    public String toString() {$/;"	m	class:TimerTickEvent
+toString	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String toString( final Object o ) {$/;"	m	class:Strings
+toString	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String toString( final Object o, final String def ) {$/;"	m	class:Strings
+toString	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String toString(InputStream input) {$/;"	m	class:Strings
+toString	src/main/java/me/biubiubiu/cgb/util/Strings.java	/^    public static String toString(Reader input) {$/;"	m	class:Strings
+token	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private String token;$/;"	f	class:BootstrapAuthenticatorActivity	file:
+update	src/main/java/me/biubiubiu/cgb/ui/AlternatingColorListAdapter.java	/^    protected void update(final int position, final V item) {$/;"	m	class:AlternatingColorListAdapter
+update	src/main/java/me/biubiubiu/cgb/ui/CheckInsListAdapter.java	/^    protected void update(int position, CheckIn item) {$/;"	m	class:CheckInsListAdapter
+update	src/main/java/me/biubiubiu/cgb/ui/NewsListAdapter.java	/^    protected void update(int position, News item) {$/;"	m	class:NewsListAdapter
+update	src/main/java/me/biubiubiu/cgb/ui/UserListAdapter.java	/^    protected void update(int position, User user) {$/;"	m	class:UserListAdapter
+updateCredentials	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAccountAuthenticator.java	/^    public Bundle updateCredentials(AccountAuthenticatorResponse response, Account account, String authTokenType,$/;"	m	class:BootstrapAccountAuthenticator
+updateNotification	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void updateNotification(String message) {$/;"	m	class:TimerService	file:
+updateRunning	src/main/java/me/biubiubiu/cgb/core/TimerService.java	/^    private void updateRunning() {$/;"	m	class:TimerService	file:
+updateUIWithValidation	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private void updateUIWithValidation() {$/;"	m	class:BootstrapAuthenticatorActivity	file:
+user	src/main/java/me/biubiubiu/cgb/ui/UserActivity.java	/^    protected User user;$/;"	f	class:UserActivity
+userAgent	src/main/java/me/biubiubiu/cgb/core/UserAgentProvider.java	/^    protected String userAgent;$/;"	f	class:UserAgentProvider
+userAgentProvider	src/main/java/me/biubiubiu/cgb/BootstrapServiceProvider.java	/^    @Inject UserAgentProvider userAgentProvider;$/;"	f	class:BootstrapServiceProvider
+userAgentProvider	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private UserAgentProvider userAgentProvider;$/;"	f	class:BootstrapService	file:
+userEmailAccounts	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private List<String> userEmailAccounts() {$/;"	m	class:BootstrapAuthenticatorActivity	file:
+userHasAuthenticated	src/main/java/me/biubiubiu/cgb/ui/CarouselActivity.java	/^    private boolean userHasAuthenticated = false;$/;"	f	class:CarouselActivity	file:
+username	src/main/java/me/biubiubiu/cgb/core/BootstrapService.java	/^    private final String username;$/;"	f	class:BootstrapService	file:
+username	src/main/java/me/biubiubiu/cgb/core/User.java	/^    protected String username;$/;"	f	class:User
+v	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int v(Object s1, Object... args) {$/;"	m	class:Ln
+v	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int v(Throwable t) {$/;"	m	class:Ln
+v	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int v(Throwable throwable, Object s1, Object... args ) {$/;"	m	class:Ln
+validationTextWatcher	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private TextWatcher validationTextWatcher() {$/;"	m	class:BootstrapAuthenticatorActivity	file:
+views	src/main/java/me/biubiubiu/cgb/core/ViewSummary.java	/^    private long views;$/;"	f	class:ViewSummary	file:
+w	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int w( Object s1, Object... args) {$/;"	m	class:Ln
+w	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int w( Throwable throwable, Object s1, Object... args) {$/;"	m	class:Ln
+w	src/main/java/me/biubiubiu/cgb/util/Ln.java	/^    public static int w(Throwable t) {$/;"	m	class:Ln
+watcher	src/main/java/me/biubiubiu/cgb/authenticator/BootstrapAuthenticatorActivity.java	/^    private TextWatcher watcher = validationTextWatcher();$/;"	f	class:BootstrapAuthenticatorActivity	file:
+wrapped	src/main/java/me/biubiubiu/cgb/ui/HeaderFooterListAdapter.java	/^    private final E wrapped;$/;"	f	class:HeaderFooterListAdapter	file:
